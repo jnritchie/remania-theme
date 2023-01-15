@@ -1,0 +1,50 @@
+body {
+    background: #cecece;
+}
+
+
+input[type=text]:focus, input[type=password]:focus, input[type=time]:focus, input[type=url]:focus, input[type=week]:focus, select:focus, textarea:focus {
+    border-color: #4a5cf9;
+    box-shadow: 0 0 0 1px #4a5cf9;
+    outline: 2px solid transparent;
+}
+
+
+.wp-core-ui .button, .wp-core-ui .button-secondary {
+    color: #4a5cf9;
+    border-color: #4a5cf9;
+    background: #f3f5f6;
+    vertical-align: top;
+}
+
+
+.login h1 a {
+  background-image: url('/wp-content/uploads/sites/3/2020/01/cb-logo-trans-fff.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+  width: 150px;
+  background-size: contain;
+  pointer-events: none;
+  /*border-radius: 100%;*/
+}
+
+.login form .input {
+  border-radius: 0px!important;
+}
+
+.login #login_error, .login .message {
+    border-left: 4px solid #ed1d43;
+}
+
+.button {
+	box-shadow: none!important;
+	padding: 0 42px 2px!important;
+}
+
+.button-primary {
+    color:#fff!important;
+    background: #4a5cf9!important;
+    text-shadow: none!important;
+    border:none!important;
+}

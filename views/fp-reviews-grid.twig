@@ -1,0 +1,14 @@
+<div class="row">
+{% for review in reviews|slice(0, 3) %}
+  
+	<div class="col-md-4 review-container">
+    <div class="card">
+      <div class="pa3 bg-white">
+        <p class="f2 gray mv3 ph3">{{ review.post_content }}</p>
+        <h3 class="f1 fw7 mv0 pa3">{{ review.post_title }}</h3>
+      </div>
+    </div>
+  </div>
+
+{% endfor %}
+</div>
