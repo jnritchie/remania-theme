@@ -33,11 +33,17 @@ You can find homepage template in
 
 ## Required Plugins 
 
-- Timber 
-- Advanced Custom Fields
+- Timber - https://wordpress.org/plugins/timber-library/
+- Advanced Custom Fields - https://wordpress.org/plugins/advanced-custom-fields/
 - Fontawesome ( normally I use 4.7 CDN in CSS or in inqueue function but for sake of quickness I employed their plugin ) [ https://wordpress.org/plugins/font-awesome/ ]
+- Ninja Forms
 
 ## Recommended Plugins
+
+- WP SMTP - Keep WP Email notifications from getting marked by spam
+- Yoast SEO - SEO Meta
+- Wordfence - Security
+
 
 ## Additional Notes
 
