@@ -23,19 +23,6 @@ get_header('front');
 		display: none;
 	}
 
-	.review-container {
-		margin-top:-50px;
-	}
-
-	.icon-circle {
-		border-radius: 100%;
-		width:90px;
-		height:90px;
-		margin:auto;
-		margin-top: -30px;
-		padding:10px;
-	}
-
 
 
 </style>
@@ -56,10 +43,11 @@ get_header('front');
 
 	<!-- -->
 
-	<div id="properties" class="w-100 pv6 bg-white">
+	<div id="properties" class="w-100 pv6 bg-light-gray">
 		<div class="container">
-			<h2 class="f0 tc mb3"><?php echo get_field('featured_properties_tagline'); ?></h2>
-			<!-- p class="tc"><?php //echo get_field('product_section_text') ?></p -->
+			<h2 class="f0 tc mb3 fw4 theme-color pb4 mt0">
+				<?php echo get_field('featured_properties_tagline'); ?><!-- field text can be changed from Custom Field on home page -->
+			</h2>
 
 			<?php 
 
@@ -91,89 +79,96 @@ get_header('front');
 	<div id="hightlights" class="pt5 pb6">
 		<div class="container">
 			<div class="fp-section-title text-center pb4">
-				<h3><span class="i">Selling or Buying</span> Your Home Has Never Been <span class="i">Easier!</span></h3>
+				<h3 class="theme-text-regular theme-color"><span class="i">Selling or Buying</span> Your Home Has Never Been <span class="i">Easier!</span></h3>
 			</div>
 			<div class="row tc">
-				<div class="col">
-					<div class="card">
-						<div class="icon-circle bg-white theme-color f-subheadline"><i class="fa-solid fa-house-medical"></i></div>
-						<div class="card-body">Blurb</div>
+				<div class="col-lg mb4 mb0-l">
+					<div class="card theme-bg shadow-4">
+						<div class="icon-circle bg-white theme-color f-subheadline shadow-4"><i class="fa-solid fa-house-medical"></i></div>
+						<div class="card-body text-white f2 pa4 min-h">Stay Informed Throughout the Process</div>
 					</div>
 				</div>
-				<div class="col">
-					<div class="card">
-						<div class="icon-circle bg-white theme-color f-subheadline"><i class="fa-solid fa-dollar-sign"></i></div>
-						<div class="card-body">Blurb</div>
+				<div class="col-lg mb4 mb0-l">
+					<div class="card theme-bg shadow-4">
+						<div class="icon-circle bg-white theme-color f-subheadline shadow-4"><i class="fa-solid fa-dollar-sign"></i></div>
+						<div class="card-body text-white f2 pa4 min-h">Get Your Best Sale Price</div>
 					</div>
 				</div>
-				<div class="col">
-					<div class="card">
-						<div class="icon-circle bg-white theme-color f-subheadline"><i class="fa-solid fa-handshake-angle"></i></div>
-						<div class="card-body">Blurb</div>
+				<div class="col-lg mb4 mb0-l">
+					<div class="card theme-bg shadow-4">
+						<div class="icon-circle bg-white theme-color f-subheadline shadow-4"><i class="fa-solid fa-handshake-angle"></i></div>
+						<div class="card-body text-white f2 pa4 min-h">Enjoy a Hassle-free Experience</div>
 					</div>
 				</div>
-				<div class="col">
-					<div class="card">
-						<div class="icon-circle bg-white theme-color f-subheadline"><i class="fa-solid fa-circle-check"></i></div>
-						<div class="card-body">Blurb</div>
+				<div class="col-lg mb4 mb0-l">
+					<div class="card theme-bg shadow-4">
+						<div class="icon-circle bg-white theme-color f-subheadline shadow-4"><i class="fa-solid fa-circle-check"></i></div>
+						<div class="card-body text-white f2 pa4 min-h">Rely on 10 Plus Years of Experience</div>
 					</div>
 				</div>
-				<div class="col">
-					<div class="card">
-						<div class="icon-circle bg-white theme-color f-subheadline"><i class="fa-solid fa-circle-question"></i></div>
-						<div class="card-body">Blurb</div>
+				<div class="col-lg mb4 mb0-l">
+					<div class="card theme-bg shadow-4">
+						<div class="icon-circle bg-white theme-color f-subheadline shadow-4"><i class="fa-solid fa-circle-question"></i></div>
+						<div class="card-body text-white f2 pa4 min-h">Get the Property You Want</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div id="featured-video" class="pv6 bg-navy text-white">
+	<div id="featured-video" class="pv6 theme-bg text-white">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-5">
-					<h3 class="mt0">Don't Just Take My Work For It, Listen to My <span class="i">Happy Customers!</span></h3>
+					<h3 class="">Don't Just Take My Work For It, Listen to My <span class="i">Happy Customers!</span></h3>
 					<div>
 						<p>Listen to all these happy customers in this testimonial. Oh what a lovely testimonial it is. Truly a really good testimonial. I really like his sunglasses and his cool truck. What a cool dude.</p>
 
 						<p>Lol what is this copy. If you want to hear more about this cool dudem click on the linke below.</p>
 
-						<a class="i">Watch More Testimonials Here!</a>
+						<a class="i theme-link">Watch More Testimonials Here!</a>
 					</div>
 				</div>
-				<div class="col-md-7 tc">
-					[ video embed ]
+				<div class="col-md-7 tc mt4 mt0-l">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/Bju7kk0rPBc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div id="join" class="pv6">
-		<div class="container">
-			<div class="row bg-white br2">
-				<div class="col-md-4">
-					<div class="card bg-navy text-white mt6">
-						<div class="card-body">
+	<div id="contact-form" class="pv6-l theme-dark-bg">
+		<div class="container relative">
+			<div class="row">
+				<div class="col-md-4 ztop">
+					<div class="card theme-bg text-white mt6 pa4 shadow-4">
+						<div class="card-body f2">
 							<h3 class="mv0">Contact Us</h3>
-							<div>Phone</div>
-							<div>Email Link</div>
-							<div>Address</div>
+							<div class="pl3">
+								<div class="mv3"><a href="#" class="theme-link no-underline"><i class="fa fa-phone"></i> 392-251-4377</a></div>
+								<div class="mv3"><a href="#" class="theme-link no-underline"><i class="fa fa-envelope"></i> Email Me</a></div>
+								<div>
+									<i class="fa fa-marker"></i> 4571 Hamill Avenue<br/>
+									San Diego, CA 92121
+								</div>
+							</div>
 						</div>
-						<div class="card-body">
+						<div class="card-body f2">
 							<h3 class="mv0">Business Hours</h3>
-							<div>Phone</div>
-							<div>Email Link</div>
-							<div>Address</div>
+							<div class="pl3">
+								<div class="mv3"><i class="fa fa-calendar"></i> Monday - Friday</div>
+								<div class="mv3"><i class="fa fa-clock"></i> 9:00AM to 6:00PM</div>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-8">
-					<h2 class="f1 tc">Schedule Your <span class="i">FREE</span> Consultation</h2>
-					<div class="ph3 ph0-l">
+				<div class="col-md-8 ztop bg-white bg-none-l">
+					<h2 class="f1 tc theme-color">Schedule Your <span class="i">FREE</span> Consultation</h2>
+					<div class="ph1 ph4-l">
 			 			<?php echo do_shortcode('[ninja_form id='.get_field('form_id').']'); ?>
 					</div>
 				</div>
 			</div>
+			<div class="dn db-l bg-white w-80 absolute floating-card br3"></div>
 		</div>
 	</div>
 

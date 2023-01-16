@@ -2,11 +2,13 @@
 {% for property in properties|slice(0, 3) %}
   
 	<div class="col-md-4">
-    <div class="card">
-    	<img src="{{ property.thumbnail.src }}" class="db" alt="{{ property.post_title }}" />
-      	<div class="card-body pa3 bg-white">
-        	<p class="f3 gray mv3 ph3">{{ review.post_content }}</p>
-        	<h3 class="f2 fw7 mv0 pa3">{{ property.post_title }}</h3>
+    <div class="card theme-bg shadow-4 mb3">
+    	<img src="{{ property.thumbnail.src }}" class="feat-prop-img ph5-l" alt="{{ property.post_title }}" />
+      	<div class="card-body pa3 text-white tc">
+        	<p class="f1 fw6 mv3 ph3">{{ property.post_content }}</p>
+        	<p class="mb0">{{ property.beds }} Beds| {{ property.baths }} Baths| {{ property.sqft }} SqFt</p>
+        	<h3 class="f2 fw4 mv0 pa3 mv0">{{ property.post_title }}</h3>
+        	<a href="{{ property.slug }}" class="theme-link i">View Property</a>
       	</div>
     </div>
   </div>

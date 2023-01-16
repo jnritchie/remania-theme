@@ -59,16 +59,24 @@
 									if ( get_field('hero_text') != "" ) {
 										// render something else instead like a placeholder
 									} else {
-										echo "<h1 class='entry-title'>Are You Looking to <span class='i'>Buy or Sell? I'm Here to Help!</span></h1>";
+										echo "<h1 class='entry-title fw5 f-headline theme-text-regular bb-l pb3'>Are You Looking to <span class='i'>Buy or Sell? I'm Here to Help!</span></h1>";
 									}
 
 								?>
+									<div class="mt3 dn db-l">
+										<p>Contact Me Today for a FREE Home Staging Guide</p>
+										<div class='row'>
+											<div class="col-md-7"><input type="text" placeholder="Email Address - button has onclick event" style="padding: 1rem 20px;"></div>
+											<div class="col-md-5"><button class="mt0 mt3-3 pa3 accent-bg link dim br2" onclick="alert('This is a CTA button')">Claim Your Guide</button></div>
+										</div>
+									</div>
+
 								</div>
 								<div class="col-md-5">
 									<?php 
 
 										if( get_field('hero_image_item')) {
-											echo "<img class='absolute rounded' style='top:-140px;' src='".get_field('hero_image_item')."'/>";
+											echo "<img class='hero-img absolute-l rounded' style='top:-140px;' src='".get_field('hero_image_item')."'/>";
 										} else {
 											echo "no image uploaded";
 										}
@@ -84,10 +92,10 @@
 		</div><!-- .cover-header-inner-wrapper -->
 	</div><!-- .cover-header -->
 
-	<div class="post-inner pt-0" id="post-inner">
+	<div class="post-inner pt-0 about-feature relative" id="post-inner" style="background-image: url('https://maniatheme.justinritchie.me/wp-content/uploads/2023/01/bg-bio-alma.jpeg');">
 
 		<div class="w-100 relative" style="z-index: 1"><!-- WAS => entry content: no thank you -->
-			<div class="w-100 bg-light-gray pb5 ph3 ph5-ns">
+			<div class="w-100 pb5 ph3 ph5-ns">
 				<div class="container">
 
 
@@ -115,18 +123,18 @@
 				</div>
 			</div>
 		</div><!-- WAS => .entry-content -->
-		<div id="join" class="pv6">
+		<div id="join" class="pt5 pb7">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<div class="card text-white bg-dark">
+						<div class="card text-white theme-bg">
 							<div class="row">
 								<div class="col-md-4">
-									<div class="ph4">
+									<div class="ph5">
 									<?php 
 
 										if( get_field('about_feature_image')) {
-											echo "<img class='absolute rounded' style='top:-30px;' src='".get_field('about_feature_image')."'/>";
+											echo "<img class='absolute-l rounded' style='top:-20px;' src='".get_field('about_feature_image')."'/>";
 										} else {
 											echo "no image uploaded";
 										}
@@ -135,8 +143,9 @@
 									</div>
 								</div>
 								<div class="col-md-8">
-									<div class="pv4 ph5-l f2">
+									<div class="pt4 pb6 ph3 ph5-l f2">
 										<?php the_content(); ?>
+										<a class="theme-link no-underline" href="#">Contact Me Today for a FREE Home Staging Guide <i class="fa fa-angle-right"></i></a>
 									</div>
 								</div>
 							</div>

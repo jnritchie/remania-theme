@@ -4,7 +4,7 @@ Authored by Justin Ritchie
 
 ## Included Assets
 
-- Tachyons CSS
+- Tachyons CSS - https://tachyons.io/
 - Bootstrap 5
 - Font Awesome 6 (Regular, Solid, & Brand variants)
 
@@ -17,6 +17,10 @@ Authored by Justin Ritchie
 - Contact Us
 
 ## Home Layout
+
+You can find homepage template in 
+
+	/templates/template-front-page.php
 
 - Hero/Welcome
 - Testimonials
