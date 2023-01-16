@@ -42,3 +42,6 @@ You can find homepage template in
 ## Additional Notes
 
 No DB dump + search/replace required. This theme is designed so that you can use wordpress import/export XML tool.
+
+
+*DB Dump.SQL*, *ACF Fields Export* and *WP Importer Export* included in DATA folder.
