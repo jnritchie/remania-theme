@@ -38,6 +38,14 @@ You can find homepage template in
 - Quick Contact
 
 
+## Installation
+
+1. Ensure TwentyTwenty theme is installed ( this is the Parent theme )
+2. Install Required Plugins
+3. Upload Content Exports ( see addtional notes )
+4. Some elements are managed from Wordpress Customizer ( If I spent a bit more time I'd have all theme options controlled from customizer, I'd do this for a base theme that I'd create for use across most projects ).
+
+
 ## Required Plugins 
 
 - Timber - https://wordpress.org/plugins/timber-library/
