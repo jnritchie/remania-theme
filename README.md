@@ -2,6 +2,13 @@
 
 Authored by Justin Ritchie
 
+DEMO URL: https://maniatheme.justinritchie.me/
+	
+	https://maniatheme.justinritchie.me/wp-admin/
+
+	Use Demo Login Creds:
+	demouser / hjKdj!oHWxrBgpsMwUgHZm88
+
 ## Included Assets
 
 - Tachyons CSS - https://tachyons.io/
@@ -25,7 +32,7 @@ You can find homepage template in
 - Hero/Welcome
 - Testimonials
 - About Feature
-- Featured Properties ( Carousel )
+- Featured Properties
 - Process
 - Testimonial Feature
 - Quick Contact
@@ -51,3 +58,9 @@ No DB dump + search/replace required. This theme is designed so that you can use
 
 
 **DB Dump.SQL**, **ACF Fields Export** and **WP Importer Export** included in **DATA** folder.	
+
+
+- If you don't use SQL dump files...
+- Upload approperties.WordPress.2023-01-16.xml via wordpress importer
+- Then Upload acf-export-2023-01-16.json via Custom Fields Importer ( ACF Plugin must be activated )
+
