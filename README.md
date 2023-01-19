@@ -1,14 +1,9 @@
-# PostCard Theme Challenge
+# RE Realty Agent Theme Development
 
 Authored by Justin Ritchie
 
-DEMO URL: https://maniatheme.justinritchie.me/
+	DEMO URL Deactivated
 	
-	https://maniatheme.justinritchie.me/wp-admin/
-
-	Use Demo Login Creds:
-	demouser / hjKdj!oHWxrBgpsMwUgHZm88
-
 ## Included Assets
 
 - Tachyons CSS - https://tachyons.io/
@@ -43,14 +38,14 @@ You can find homepage template in
 1. Ensure TwentyTwenty theme is installed ( this is the Parent theme )
 2. Install Required Plugins
 3. Upload Content Exports ( see addtional notes )
-4. Some elements are managed from Wordpress Customizer ( If I spent a bit more time I'd have all theme options controlled from customizer, I'd do this for a base theme that I'd create for use across most projects ).
+4. Some elements are managed from Wordpress Customizer.
 
 
 ## Required Plugins 
 
 - Timber - https://wordpress.org/plugins/timber-library/
 - Advanced Custom Fields - https://wordpress.org/plugins/advanced-custom-fields/
-- Fontawesome ( normally I use 4.7 CDN in CSS or in inqueue function but for sake of quickness I employed their plugin ) [ https://wordpress.org/plugins/font-awesome/ ]
+- Fontawesome - [ https://wordpress.org/plugins/font-awesome/ ]
 - Ninja Forms
 
 ## Recommended Plugins
